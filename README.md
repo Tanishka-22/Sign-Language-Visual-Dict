@@ -30,8 +30,7 @@ A web application that helps users learn sign language through AI-generated visu
 - FAL.AI for generating sign language illustrations
 - SignASL.org for video references
 
-## API Endpoints
-### Words
+### API Endpoints (Words)
 - GET /words - Retrieve all words
 - GET /words/:query - Search for a specific word
 - POST /words - Add a new word
