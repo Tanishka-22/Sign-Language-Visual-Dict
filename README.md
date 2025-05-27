@@ -30,20 +30,13 @@ A web application that helps users learn sign language through AI-generated visu
 - FAL.AI for generating sign language illustrations
 - SignASL.org for video references
 
-  ### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB installed and running
-- FAL.AI API key
-
-
 ## API Endpoints
 ### Words
 - GET /words - Retrieve all words
 - GET /words/:query - Search for a specific word
 - POST /words - Add a new word
   
-## Environment Variables
-### Backend (.env)
+### Environment Variables(.env)
 - MONGO_URI : MongoDB connection string
 - FAL_API_KEY : FAL.AI API key
 - PORT : Server port (default: 3000)
