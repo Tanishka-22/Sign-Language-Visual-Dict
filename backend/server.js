@@ -7,6 +7,7 @@ const cors = require("cors");
 const app = express()
 const uri = process.env.MONGO_URI
 app.use(cors());
+app.use(express.json()); // Add this line
 
 app.use((req, res, next) => {
     console.log(req.path, req.method)
